@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.3.final using JasperReports Library version 6.21.3-4a3078d20785ebe464f18037d738d12fc98c13cf  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ReporteDetalleVentaTurno" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="690f5fa6-12c7-4c7f-92f4-fdbeb9c7fbe3">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#FFFFFF"/>
+			<topPen lineWidth="0.5" lineColor="#FFFFFF"/>
+			<leftPen lineWidth="0.5" lineColor="#FFFFFF"/>
+			<bottomPen lineWidth="0.5" lineColor="#FFFFFF"/>
+			<rightPen lineWidth="0.5" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#D4D7D9">
+		<box>
+			<pen lineWidth="0.5" lineColor="#FFFFFF"/>
+			<topPen lineWidth="0.5" lineColor="#FFFFFF"/>
+			<leftPen lineWidth="0.5" lineColor="#FFFFFF"/>
+			<bottomPen lineWidth="0.5" lineColor="#FFFFFF"/>
+			<rightPen lineWidth="0.5" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#FFFFFF"/>
+			<topPen lineWidth="0.5" lineColor="#FFFFFF"/>
+			<leftPen lineWidth="0.5" lineColor="#FFFFFF"/>
+			<bottomPen lineWidth="0.5" lineColor="#FFFFFF"/>
+			<rightPen lineWidth="0.5" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<subDataset name="dsTablaDetalleVentaTurno" uuid="ab5ee6fb-4298-4f45-b09e-098ebb2a0038">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<parameter name="listaDetalleVentaTurno" class="java.util.Collection"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="idTurno" class="java.lang.Integer"/>
+		<field name="nombre" class="java.lang.String"/>
+		<field name="peluqueria" class="java.lang.String"/>
+		<field name="atencionMedica" class="java.lang.String"/>
+		<field name="fechaTurno" class="java.sql.Date"/>
+		<field name="precio" class="java.lang.Double"/>
+	</subDataset>
+	<parameter name="idFacturaTurno" class="java.lang.Double"/>
+	<parameter name="duenio" class="java.lang.String"/>
+	<parameter name="totalPagarTurno" class="java.lang.Double"/>
+	<parameter name="descuentoCompraTurno" class="java.lang.Double"/>
+	<parameter name="ivaCompraTurno" class="java.lang.Double"/>
+	<parameter name="subTotalCompraTurno" class="java.lang.Double"/>
+	<parameter name="listaDetalleVentaTurno" class="java.util.Collection"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="101" splitType="Stretch">
+			<rectangle>
+				<reportElement x="-20" y="0" width="593" height="101" uuid="79fbb0f7-820f-4c19-809a-e17854e3354c"/>
+				<graphicElement>
+					<pen lineColor="#FFFFFF"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="130" y="0" width="422" height="101" uuid="f8d0c31a-abb8-4eba-bd19-07d1670bdcdc">
+					<property name="com.jaspersoft.studio.unit.leftIndent" value="px"/>
+					<property name="com.jaspersoft.studio.unit.rightIndent" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="13" isBold="true"/>
+					<paragraph leftIndent="5" rightIndent="0"/>
+				</textElement>
+				<text><![CDATA[Razón Social: Veterinaria y Spa Mi Fiel Amigo
+Dirección: 113 e/ 12 y 14 - Navarro, Prov. Bs. As. - Argentina
+Teléfono: 2272 101010
+Email: vetmifielamigo@gmail.com
+CUIT: 30 - 20555999 - 9]]></text>
+			</staticText>
+			<image>
+				<reportElement x="30" y="0" width="100" height="101" uuid="5b75772d-b145-4af6-b468-8c7c68a80dcf">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["C:/Users/lunal/Desktop/COpia PetShop/PetShop/src/main/resources/PeluqueriaMiFielAmigo200x200.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<detail>
+		<band height="366" splitType="Stretch">
+			<line>
+				<reportElement x="0" y="10" width="549" height="1" forecolor="#036375" backcolor="#036375" uuid="05fdc370-5e54-40b9-84b9-1af2abe26c25">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="90" width="549" height="40" forecolor="#FFFFFF" backcolor="#036375" uuid="fe610566-2c9b-49db-9039-1df7b8842214">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineColor="#036375"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[Detalle de pago de los turnos:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="100" y="24" width="130" height="20" uuid="8cdda82f-58bb-4d27-83fe-b2badedb22c5"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{idFacturaTurno}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="30" y="24" width="81" height="20" uuid="23547c3f-8145-4a70-9ea8-46ff6101b631"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nro. Factura:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="44" width="129" height="16" uuid="14235c10-9f09-443e-b4de-98bcddadeae6"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cliente/Razón social:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="150" y="42" width="180" height="20" uuid="dc549fac-17a8-42f1-a11c-668d917066df"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{duenio}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="360" y="23" width="42" height="17" uuid="09371a03-1c19-4527-bf86-35921f5d56c0">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Fecha:]]></text>
+			</staticText>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="409" y="20" width="80" height="21" uuid="13b82f06-dcda-44bf-965a-8f33e6ef1c95">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField pattern="HH:mm">
+				<reportElement x="489" y="20" width="59" height="22" uuid="4cfc815b-0344-44f0-b3ab-3190d3f06e83">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="30" y="60" width="40" height="20" uuid="1a61edf2-871b-479e-830d-64f1890a1b6d"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cond.:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="70" y="62" width="100" height="16" uuid="64ac2259-9260-437f-9907-e5cff91e9050"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Consumidor Final]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="0" y="130" width="548" height="100" uuid="880f5a27-d40f-4360-ab2c-b783f3e12301">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="dsTablaDetalleVentaTurno" uuid="68d2badc-67a2-4f1b-b87a-3075395b502b">
+						<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.JREmptyDataSource() ]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="80" uuid="ee70b778-b44b-4032-85ce-3396694e4216">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="80" height="30" uuid="42236e1d-d8e5-40a6-abe9-63f1bd44aee0"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Nro. Turno]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="80" height="30" uuid="f6314029-4e43-45d2-a008-84923e2d5dd1"/>
+								<textElement verticalAlignment="Middle">
+									<font size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{idTurno}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="140" uuid="853e2c84-75c6-4fd1-87f5-be90d66b2967">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="140" height="30" uuid="a2c9bdb2-f11b-42cd-81eb-53ba5aac1982"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Mascota]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="140" height="30" uuid="bf64e752-3652-4d5e-b889-81e0665467c7"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="f772588b-3776-4dd8-9837-833295c178db">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="30" uuid="31559dea-b02a-42db-b689-a1a9c8090afa"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Peluqueria]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="70" height="30" uuid="8b0d49ae-5640-434e-9732-a6100abd6aaa"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{peluqueria}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="80" uuid="eda65d1f-93a5-457c-81da-259c946429bc">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="80" height="30" uuid="d593dc03-76d8-4f0c-8dbf-475163a810f9"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Aten. Medica]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="80" height="30" uuid="41f16b88-4f69-40c5-b3dc-80cb73441370"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{atencionMedica}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="80" uuid="9927d486-95ca-49d3-949a-e1924b23b3ec">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column5"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="80" height="30" uuid="dc3476a1-6dbd-4890-896e-2decf9fd0c4b"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Fecha Turno]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="80" height="30" uuid="3d1e9c1a-f990-4b83-957b-ac38fe7294de"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{fechaTurno}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="98" uuid="0fa58bb8-e9c4-4a99-ab90-c5be4cc0ec66">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column6"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="98" height="30" uuid="b50bd07d-72f8-407a-8aa6-63bb28a5c436"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Precio]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="98" height="30" uuid="248c3d7b-cf1d-4530-820c-e726e8b166bf"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{precio}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="120" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<image>
+				<reportElement x="39" y="25" width="82" height="81" uuid="57d177d7-b447-4e80-b871-1095516de682">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["C:/Users/lunal/Desktop/COpia PetShop/PetShop/src/main/resources/PeluqueriaMiFielAmigo200x200.png"]]></imageExpression>
+			</image>
+			<line>
+				<reportElement x="3" y="10" width="549" height="1" forecolor="#036375" backcolor="#036375" uuid="15f66012-a00a-4025-b1df-7bb048262719">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="150" y="37" width="93" height="22" uuid="7c379b70-acef-4425-a39d-c2b579105c7b"/>
+				<textElement verticalAlignment="Middle">
+					<font size="11" isBold="false"/>
+				</textElement>
+				<text><![CDATA[vetmifielamigo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="70" width="93" height="22" uuid="c2905c82-05bf-4bc9-ae04-d5ab5296d596"/>
+				<textElement verticalAlignment="Middle">
+					<font size="11" isBold="false"/>
+				</textElement>
+				<text><![CDATA[vetmifielamigo]]></text>
+			</staticText>
+			<image>
+				<reportElement x="130" y="40" width="20" height="16" uuid="914738fb-d8b4-4de0-9c5b-8766b2232fc1">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["C:/Users/lunal/Desktop/COpia PetShop/PetShop/src/main/resources/icono instagram 24.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="130" y="73" width="20" height="16" uuid="e69265ee-1aa6-45bf-9f8a-3557bc6d54ab">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["C:/Users/lunal/Desktop/COpia PetShop/PetShop/src/main/resources/icono facebook 24.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="318" y="15" width="62" height="22" uuid="d51c7fb9-44ef-4a27-a7ea-09a5dbe5a7b6"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[SubTotal: $]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="302" y="37" width="78" height="22" uuid="145ff088-076e-418d-80a7-31f034e5c0ae"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Descuento: %]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="340" y="60" width="40" height="20" uuid="2942254e-0b5d-4c67-bcba-fa1fbd379075"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[IVA: %]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="333" y="80" width="47" height="25" uuid="65524237-3844-415d-8c84-c615aa639582"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total: $]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="380" y="80" width="173" height="25" uuid="9527c6cd-f9c3-4bef-be37-20cdd5c7cb4a"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{totalPagarTurno}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="380" y="37" width="173" height="22" uuid="d73732d3-5662-4d11-84ae-f4ef49ede7c8"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{descuentoCompraTurno}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="380" y="62" width="173" height="17" uuid="b865e6b7-b9b7-4918-a722-cbcf253f795b"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{ivaCompraTurno}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="380" y="15" width="174" height="23" uuid="8ca0b598-39a7-413f-a755-db8fba3fe740"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{subTotalCompraTurno}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>
