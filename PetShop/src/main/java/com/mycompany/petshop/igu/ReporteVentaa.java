@@ -35,7 +35,7 @@ public class ReporteVentaa {
         JasperPrint print = null;
         try {
             // Ruta del archivo compilado
-            JasperReport reporte = JasperCompileManager.compileReport("C:/Users/lunal/Desktop/COpia PetShop/PetShop/reporte/MyReports/ReporteDetalleVenta.jrxml");
+            JasperReport reporte = JasperCompileManager.compileReport("ruta/archivo/ReporteDetalleVenta.jrxml");
 
             // Parámetros cabecera del reporte
             Map<String, Object> parametros = new HashMap<>();
@@ -51,7 +51,7 @@ public class ReporteVentaa {
             /*JRBeanCollectionDataSource dataSource = new JRBeanCollectionDataSource(factura.getListaDetalleVenta());*/
             
             // Conexión a la base de datos
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/petshop", "root", "Luna.1998");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/petshop", "root", "...");
 
             /*JasperPrint print = JasperFillManager.fillReport(reporte, parametros, conn);*/
             print = JasperFillManager.fillReport(reporte, parametros, new JREmptyDataSource());
