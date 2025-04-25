@@ -24,7 +24,23 @@ Y si tienen algún consejo, comentario o critica constructiva me seria muy útil
 
 [![1-Nuevo.png](https://i.postimg.cc/Vvr5vTzq/1-Nuevo.png)](https://postimg.cc/30h3bt4N)
 
-https://drive.google.com/file/d/1OVbQwMJYr_GjUDViHUceUbqNx9IuwtwY/view?usp=drive_link
+========================================================================================================
+
+[![2-Lista-Mascotas.png](https://i.postimg.cc/9fQTPcVV/2-Lista-Mascotas.png)](https://postimg.cc/jDBLt0Lk)
+
+========================================================================================================
+
+[![2-1-Editar-Mascota.jpg](https://i.postimg.cc/k4kbd8SX/2-1-Editar-Mascota.jpg)](https://postimg.cc/r0Nm1Dgv)
+
+========================================================================================================
+
+[![4-Tienda.jpg](https://i.postimg.cc/Kvb1rmrV/4-Tienda.jpg)](https://postimg.cc/py0VPbSY)
+
+========================================================================================================
+
+[![5-Comprobante-m.jpg](https://i.postimg.cc/9MthWHRR/5-Comprobante-m.jpg)](https://postimg.cc/ZBRgcgL4)
+
+
 
 
 
