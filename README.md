@@ -11,7 +11,9 @@ Funcionalidades:
   <li>✅ Una vez pago, genera el comprobante/ticket de compra y permite optar por imprimir o no, incluso deja elegir por guardarlo o no, en el formato deseado.<br></li>
 </ul>
 
-🧠 Proyecto realizado en lenguaje Java, cuenta con Java Swing, Maven, JPA, JasperReports. Y use como Base de Datos MySQL Workbench.
+🧠 Proyecto realizado en lenguaje Java, cuenta con Java Swing, Maven, JPA, JasperReports. 
+🗄️ Y use como Base de Datos MySQL Workbench.
+💻 Y como IDE a Apache NetBeans.
 
 📽 Video del funcionamiento del proyecto (previo a generar el reporte) esta publicado en mi cuenta de Linkedin, la cual aparece aqui en mi perfil.
 📷 Tambien encontraran alli, otra publicacion de solo imagenes del proyecto.
