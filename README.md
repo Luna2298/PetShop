@@ -21,6 +21,8 @@ Funcionalidades:
 El proyecto tiene muchas líneas de comentario😅<br>
 Y si tienen algún consejo, comentario o critica constructiva me seria muy útil, muchas gracias! 😊🌙<br>
 
+Vista previa:
+
 [![0-Menu.png](https://i.postimg.cc/1XtwHJsX/0-Menu.png)](https://postimg.cc/2bs1jdqN)
 
 <hr style="width: 30%; height: 1px; background-color: #ccc; border: none; margin: auto;">
