@@ -12,40 +12,35 @@ Funcionalidades:
 </ul>
 
 🧠 Proyecto realizado en lenguaje Java, cuenta con Java Swing, Maven, JPA, JasperReports.<br>
-🗄️ Y use como Base de Datos MySQL Workbench.
+🗄️ Y use como Base de Datos MySQL Workbench.<br>
 💻 Y como IDE a Apache NetBeans.
 
-📽 Video del funcionamiento del proyecto (previo a generar el reporte) esta publicado en mi cuenta de Linkedin, la cual aparece aqui en mi perfil.
-📷 Tambien encontraran alli, otra publicacion de solo imagenes del proyecto.
+📽 Video del funcionamiento del proyecto (previo a generar el reporte) esta publicado en mi cuenta de Linkedin, la cual aparece aqui en mi perfil.<br>
+📷 Tambien encontraran alli, otra publicacion de solo imagenes del proyecto.<br>
 ✨ Ambos estan en la parte de Destacados.
 
-El proyecto tiene muchas líneas de comentario😅
-Y si tienen algún consejo, comentario o critica constructiva me seria muy útil, muchas gracias! 😊🌙
+El proyecto tiene muchas líneas de comentario😅<br>
+Y si tienen algún consejo, comentario o critica constructiva me seria muy útil, muchas gracias! 😊🌙<br>
 
 [![0-Menu.png](https://i.postimg.cc/1XtwHJsX/0-Menu.png)](https://postimg.cc/2bs1jdqN)
 
 <hr style="width: 30%; height: 1px; background-color: #ccc; border: none; margin: auto;">
-<!--========================================================================================================-->
 
 [![1-Nuevo.png](https://i.postimg.cc/Vvr5vTzq/1-Nuevo.png)](https://postimg.cc/30h3bt4N)
 
 <hr style="width: 30%; height: 1px; background-color: #ccc; border: none; margin: auto;">
-<!--========================================================================================================-->
 
 [![2-Lista-Mascotas.png](https://i.postimg.cc/9fQTPcVV/2-Lista-Mascotas.png)](https://postimg.cc/jDBLt0Lk)
 
 <hr style="width: 30%; height: 1px; background-color: #ccc; border: none; margin: auto;">
-<!--========================================================================================================-->
 
 [![2-1-Editar-Mascota.jpg](https://i.postimg.cc/k4kbd8SX/2-1-Editar-Mascota.jpg)](https://postimg.cc/r0Nm1Dgv)
 
 <hr style="width: 30%; height: 1px; background-color: #ccc; border: none; margin: auto;">
-<!--========================================================================================================-->
 
 [![4-Tienda.jpg](https://i.postimg.cc/Kvb1rmrV/4-Tienda.jpg)](https://postimg.cc/py0VPbSY)
 
 <hr style="width: 30%; height: 1px; background-color: #ccc; border: none; margin: auto;">
-<!--========================================================================================================-->
 
 [![5-Comprobante-m.jpg](https://i.postimg.cc/9MthWHRR/5-Comprobante-m.jpg)](https://postimg.cc/ZBRgcgL4)
 
