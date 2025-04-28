@@ -1,4 +1,4 @@
-💻 💡Sistema de Gestion para un local Veterinario/Spa🐶 🐱 🐾 
+👨‍💻 💡Sistema de Gestion para un local Veterinario/Spa🐶 🐱 🐾 
 
 Funcionalidades:
  <ul>
